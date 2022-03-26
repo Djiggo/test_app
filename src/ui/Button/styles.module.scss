@@ -1,0 +1,32 @@
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+
+  height: 36px;
+  padding: 9px 32px 10px;
+  border-radius: 3px;
+  background-color: var(--color-blue);
+  border: none;
+
+  &:hover:not(&[disabled]) {
+    filter: brightness(85%);
+  }
+
+  &[disabled] {
+    background-color: var(--color-grey);
+    color: #ffffff;
+    cursor: default;
+  }
+
+  &.secondary {
+    background-color: var(--color-warm-grey);
+    color: #ffffff;
+  }
+
+}

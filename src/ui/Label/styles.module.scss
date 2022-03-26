@@ -1,0 +1,23 @@
+.wrapper {
+  height: 18.4px;
+  margin: 0 0 9px 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--color-greyish);
+
+  &.error {
+    color: var(--color-red);
+  }
+  &.light {
+    color: var(--color-grey2);
+  }
+
+  @media (max-width: 680px) {
+    font-size: 13px;
+    margin: 0 0 7px 0;
+  }
+}

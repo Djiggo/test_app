@@ -1,0 +1,17 @@
+
+.submit_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.forgot_link {
+  width: 106px;
+  height: 15.4px;
+  font-size: 13px;
+  text-align: right;
+  color: var(--color-greyish);
+  text-decoration: underline;
+  cursor: pointer;
+}

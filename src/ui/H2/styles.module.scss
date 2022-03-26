@@ -1,0 +1,12 @@
+.wrapper {
+  margin: 9px 0;
+  font-size: 26px;
+  color: var(--color-greyish);
+
+  @media (max-width: 680px) {
+    font-size: 20px;
+    margin: 3px 0;
+  }
+
+
+}
